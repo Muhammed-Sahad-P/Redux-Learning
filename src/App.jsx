@@ -1,7 +1,13 @@
-import "./App.css";
+import Header from "./Components/Header/Header";
+import ProductList from "./Components/Product/ProductList";
 
-function App() {
-  return <></>;
-}
+const App = () => {
+  return (
+    <>
+      <Header />
+      <ProductList />
+    </>
+  );
+};
 
 export default App;
