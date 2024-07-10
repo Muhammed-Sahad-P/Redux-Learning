@@ -1,0 +1,91 @@
+.containerrr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.App{
+    background-color: #27293d;
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   
+
+}
+.todo-list {
+    overflow: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+input[type="text"] {
+  padding: 5px;
+  font-size: 1rem;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 5px 10px ;
+  font-size: 1rem;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+button.save-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.add-button {
+  background-color: #008cba;
+  color: white;
+}
+
+button.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+button.edit-button {
+  background-color: #ff9800;
+  color: white;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.todo-item span {
+  flex-grow: 1;
+}

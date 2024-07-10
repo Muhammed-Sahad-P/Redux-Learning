@@ -7,6 +7,8 @@ section{
   display: flex;
   flex-wrap: wrap;
   column-gap: 25px;
+  row-gap: 25px;
+  align-items: center;
 }
 
 .product-container{

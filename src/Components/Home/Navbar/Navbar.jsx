@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="heading">
-        <h1>Redux</h1>
+        <h1 style={{ color: "white" }}>Redux</h1>
       </div>
       <div className="list-links">
         <ul>
