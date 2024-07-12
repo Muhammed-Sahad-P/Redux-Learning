@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { increment, decrement, Reset, incrementbyvalue } from "./CounterSlice";
+import { increment, decrement, Reset, incrementbyvalue } from "../../redux/CounterSlice";
 import "./Counter.css";
 
 const Counter = () => {
