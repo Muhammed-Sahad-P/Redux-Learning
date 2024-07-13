@@ -8,6 +8,7 @@ import UserList from "./Components/UserManagement/UserList";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { fetchUsers } from "./redux/userSlice";
+import Zodo from "./Components/Zodo/Zodo";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -40,6 +41,7 @@ const App = () => {
           <Route path="/todo" element={<TodoApp />} />
           <Route path="/counter" element={<Counter />} />
           <Route path="/userlist" element={<UserList />} />
+          <Route path="/zodo" element={<Zodo />} />
         </Routes>
       </>
     </>

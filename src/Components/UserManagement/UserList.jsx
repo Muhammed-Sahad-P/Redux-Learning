@@ -3,7 +3,6 @@ import UserItem from "./UserItem";
 
 const UserList = () => {
   const users = useSelector((state) => state.users.users);
-  console.log(users);
 
   return (
     <ul>
