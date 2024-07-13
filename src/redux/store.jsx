@@ -4,7 +4,7 @@ import todosReducer from "./TodoSlice";
 import counterReducer from "./CounterSlice";
 import userReducer from "./userSlice";
 import zodosReducer from "./zodoSlice"
-
+import kounderReducer from "./kounderSlice"
 
 export const store = configureStore({
   reducer: {
@@ -13,6 +13,7 @@ export const store = configureStore({
     counter: counterReducer,
     users:userReducer,
     zodos:zodosReducer,
+    kounder:kounderReducer,
   
   },
 });

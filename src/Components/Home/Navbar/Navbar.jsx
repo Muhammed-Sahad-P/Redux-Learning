@@ -27,6 +27,9 @@ const Navbar = () => {
           <li>
             <Link to="/zodo">Zodo</Link>
           </li>
+          <li>
+            <Link to="/kounder">Kounder</Link>
+          </li>
         </ul>
       </div>
     </div>
